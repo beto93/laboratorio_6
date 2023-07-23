@@ -1,4 +1,4 @@
-name: CI/CD con GitHubname: CI/CD con GitHub Pages
+name: CI/CD con GitHub Pages
 
 on:
   push:
