@@ -1,4 +1,4 @@
-name: CI/CD con GitHub
+name: CI/CD con GitHubname: CI/CD con GitHub Pages
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
     - name: Checkout código
       uses: actions/checkout@v2
 
-    - name: Implementar a GitHub 
+    - name: Implementar a GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
